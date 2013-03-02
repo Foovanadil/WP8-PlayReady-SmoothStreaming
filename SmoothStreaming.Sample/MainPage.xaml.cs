@@ -18,9 +18,7 @@ namespace SmoothStreaming.Sample
 			// Sample code to localize the ApplicationBar
 			var la = new LicenseAcquirer();
 			la.LicenseServerUriOverride = new Uri(LAURL);
-			//la.ChallengeCustomData =
-			//	"StreamInstanceID=fd29fbf6-7de8-4f1c-b7fc-68ba4f242c7e&AssetID=627740&DestinationUniqueID=938888474@XBX-976383503&DeviceTypeId=842&ClientIP=209.237.233.54&AffiliateId=3991&ServerIP=10.22.121.82&PurchaseType=Purchase&PurchaseEndDate=12/31/2049 12:00:00 AM&RentalPeriodAllowedMinutes=59940&MinutesDiff=0";
-
+			
 			la.AcquireLicenseCompleted += la_AcquireLicenseCompleted;
 			
 
